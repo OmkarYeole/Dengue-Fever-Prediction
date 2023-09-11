@@ -2,8 +2,6 @@
 # coding: utf-8
 
 # In[1]:
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -19,10 +17,7 @@ from sklearn.svm import SVC
 from xgboost import XGBClassifier
 from sklearn.decomposition import PCA
 from sklearn.metrics import confusion_matrix
-
-
 # In[2]:
-
 
 train = pd.read_csv('DengAI_Predicting_Disease_Spread_Training_Data_Features.csv')
 feat_train = pd.read_csv('DengAI_Predicting_Disease_Spread_Training_Data_Labels.csv')
