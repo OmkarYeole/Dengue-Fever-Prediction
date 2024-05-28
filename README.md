@@ -38,7 +38,7 @@ This project focuses on the implementation of a Dengue Fever Prediction system, 
 
 **Step 6: Implementation of KNN and Logistic Regression from Scratch**
 
-**Algorithm Implementation:** Implement the K-Nearest Neighbors (KNN) and Logistic Regression algorithms from scratch in Python.
+**Algorithm Implementation:** Implementing Logistic Regression algorithms from scratch in Python and comparing it to the model from scikit-learn.
 
 **Demonstration:** Demonstrate how these algorithms can be implemented without relying on external libraries.
 
@@ -50,7 +50,7 @@ This project focuses on the implementation of a Dengue Fever Prediction system, 
 
 **Visualization:** Matplotlib, Seaborn.
 
-**Machine Learning Models:** SARIMAX, SVM, XGBoost, Neural Networks, KNN, Logistic Regression.
+**Machine Learning Models:** SARIMAX, SVM, XGBoost, Neural Networks, Logistic Regression.
 
 ## Contact
 
