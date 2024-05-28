@@ -36,11 +36,9 @@ This project focuses on the implementation of a Dengue Fever Prediction system, 
 
 **Metrics Monitoring:** Monitor metrics such as precision, recall, and F1 score. Implement early stopping to prevent overfitting.
 
-**Step 6: Implementation of KNN and Logistic Regression from Scratch**
+**Step 6: Implementation of Logistic Regression from Scratch**
 
 **Algorithm Implementation:** Implementing Logistic Regression algorithms from scratch in Python and comparing it to the model from scikit-learn.
-
-**Demonstration:** Demonstrate how these algorithms can be implemented without relying on external libraries.
 
 ## Technologies Used
 
