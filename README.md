@@ -44,13 +44,13 @@ This project focuses on the implementation of a Dengue Fever Prediction system, 
 
 ## Technologies Used
 
-**Programming Language:** Python
+**Programming Language:** Python.
 
-**Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Keras, Statsmodels
+**Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Keras, Statsmodels.
 
-**Visualization:** Matplotlib, Seaborn
+**Visualization:** Matplotlib, Seaborn.
 
-**Machine Learning Models:** SARIMAX, SVM, XGBoost, Neural Networks, KNN, Logistic Regression
+**Machine Learning Models:** SARIMAX, SVM, XGBoost, Neural Networks, KNN, Logistic Regression.
 
 ## Contact
 
