@@ -1,27 +1,59 @@
 # Dengue-Fever-Prediction
 
-This repository contains the implementation of a Dengue Fever Prediction project, which aims to predict the number of Dengue fever cases in two cities based on various factors such as weather information, population data, and past Dengue incidence data. The project consists of several key steps, each of which is detailed below.
+## Overview
 
-Step 1: Exploratory Data Analysis and Preprocessing
+This project focuses on the implementation of a Dengue Fever Prediction system, which aims to predict the number of Dengue fever cases in two cities based on various factors such as weather information, population data, and past Dengue incidence data. The project leverages machine learning techniques to provide accurate predictions that can help in early warning and prevention measures.
 
-In this step, we perform exploratory data analysis (EDA) on the DengAI dataset to understand its structure and characteristics. We preprocess the data to prepare it for machine learning models and address missing values. We also conduct outlier detection to ensure data quality.
+## Key Steps for Analysis
 
-Step 2: SARIMAX Time Series Models
+**Step 1: Exploratory Data Analysis and Preprocessing**
 
-We implement Seasonal Autoregressive Integrated Moving Average with Exogenous Variables (SARIMAX) models with seasonal periods of 12, 24, and 52 weeks to predict the number of Dengue cases in subsequent weeks. We calculate the mean absolute error (MAE) of the model predictions and visualize the actual versus predicted values.
+**Exploratory Data Analysis (EDA):** Perform EDA on the DengAI dataset to understand its structure and characteristics.
 
-Step 3: Binary Classification Using SVM and XGBoost
+**Data Preprocessing:** Prepare the data for machine learning models by addressing missing values and conducting outlier detection to ensure data quality.
 
-In this step, we explore binary classification using Support Vector Machine (SVM) and XGBoost algorithms. We set a threshold to classify outbreaks and evaluate model performance using confusion matrices and classification reports.
+**Step 2: SARIMAX Time Series Models**
 
-Step 4: SVM Binary Classification and Overfitting Check
+**Model Implementation:** Implement Seasonal Autoregressive Integrated Moving Average with Exogenous Variables (SARIMAX) models with seasonal periods of 12, 24, and 52 weeks.
 
-We delve deeper into SVM classification by evaluating model performance using ROC curves, AUC, and confusion matrices. Additionally, we check for overfitting by comparing training and test set performance.
+**Evaluation:** Calculate the mean absolute error (MAE) of the model predictions and visualize the actual versus predicted values.
 
-Step 5: Binary Classification Neural Network with Keras
+**Step 3: Binary Classification Using SVM and XGBoost**
 
-This step involves building, training, and evaluating a binary classification neural network using the Keras API. We monitor metrics such as precision, recall, and F1 score. The script also implements early stopping to prevent overfitting.
+**Binary Classification:** Explore binary classification using Support Vector Machine (SVM) and XGBoost algorithms.
 
-Step 6: Implementation of KNN and Logistic Regression from Scratch
+**Evaluation:** Set a threshold to classify outbreaks and evaluate model performance using confusion matrices and classification reports.
 
-The final step showcases the implementation of the K-Nearest Neighbors (KNN) and Logistic Regression algorithms from scratch in Python. It demonstrates how these algorithms can be implemented without relying on external libraries.
+**Step 4: SVM Binary Classification and Overfitting Check**
+
+**Performance Evaluation:** Evaluate SVM model performance using ROC curves, AUC, and confusion matrices.
+
+**Overfitting Check:** Compare training and test set performance to check for overfitting.
+
+**Step 5: Binary Classification Neural Network with Keras**
+
+**Neural Network:** Build, train, and evaluate a binary classification neural network using the Keras API.
+
+**Metrics Monitoring:** Monitor metrics such as precision, recall, and F1 score. Implement early stopping to prevent overfitting.
+
+**Step 6: Implementation of KNN and Logistic Regression from Scratch**
+
+**Algorithm Implementation:** Implement the K-Nearest Neighbors (KNN) and Logistic Regression algorithms from scratch in Python.
+
+**Demonstration:** Demonstrate how these algorithms can be implemented without relying on external libraries.
+
+##Technologies Used
+
+**Programming Language:** Python
+
+**Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, Keras, Statsmodels
+
+**Visualization:** Matplotlib, Seaborn
+
+**Machine Learning Models:** SARIMAX, SVM, XGBoost, Neural Networks, KNN, Logistic Regression
+
+## Contact
+
+For any questions or further information, you can reach me at omkar.yeole@colorado.edu.
+
+Thank you for visiting the Dengue Fever Prediction project!
