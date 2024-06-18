@@ -1,4 +1,4 @@
-# Dengue Fever Prediction
+# Dengue Fever Prediction using Machine Learning
 
 ## Overview
 
@@ -52,6 +52,6 @@ This project focuses on the implementation of a Dengue Fever Prediction system, 
 
 ## Contact
 
-For any questions or further information, you can reach me at omkar.yeole@colorado.edu.
+For any questions or further information, you can reach me at omkaryeole@gmail.com.
 
-Thank you for visiting the Dengue Fever Prediction project!
+Thank you for visiting the Dengue Fever Prediction using Machine Learning project!
